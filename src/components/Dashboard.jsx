@@ -97,6 +97,8 @@ const Dashboard = () => {
                     <div className='aboutBody'>
                         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, cumque ducimus unde accusantium sapiente maxime iste doloribus officia provident, adipisci neque dicta deserunt,
                             voluptatum alias accusamus tempora modi ad?!</h3>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, vel quo perspiciatis quasi praesentium adipisci eius commodi maiores earum quaerat optio, doloremque nulla corrupti 
+                            sassumenda at consequuntur. Repellat, sequi perspiciatis.</h3>
                     </div>
                 </div>
 
