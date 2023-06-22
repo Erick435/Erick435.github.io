@@ -56,7 +56,7 @@ const Dashboard = () => {
                     <div className='aboutLabel'>
                         <h3>About</h3>
                     </div>
-                    
+
                     <div className='surprise'>
                         <h3>Surprise me!</h3>
                     </div>
