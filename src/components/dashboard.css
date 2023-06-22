@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* =============== TOP BAR HEADER ================ */
+
+.topLabel{
+    background-color: darkcyan;
+    margin:0;
+    padding:25px;
+    display: flex;
+    align-items: center;
+}
+
+.dash{
+    justify-content: center;
+    flex:4;
+    padding-left: 35px;
+    text-align: left;
+    color:whitesmoke;
+}
+
+.aboutLabel{
+    flex:1;
+    color:whitesmoke;
+}
+
+.surprise{
+    flex:1;
+    color:whitesmoke;
+}
+
+/* ============= FORM PAGE ===================== */
+
+.containerOne{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 750px;
+    width: 100vw;
+    object-fit:cover;
+    display: block;
+    flex:1;
+}
+
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    max-width:500px;
+    justify-content: center;
+}
+
+.labelOne{
+    flex:1;
+}
+
+.labelTwo{
+    flex:1;
+}
+
+label{
+    color:white;
+    font:large;
+    font-size:xx-large;
+    font-weight: 1000;
+}
+
+/* ================ ABOUT SECTION =================*/
