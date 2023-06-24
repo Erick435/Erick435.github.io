@@ -20,8 +20,8 @@ TravelStrats_Project> npm start
 If for any reason a new window does not open up automatically, then you can open a browser of your choice (preferrably Chrome) and in the url type:
 >localhost:3000
 
+![View of Home Page](Screenshots/Top_dash.png)
 
-![Alt text](../Screenshots/Top_dash.png)
 
 In order to be able to search for the data (in this case the destination and how many days the person is staying), you must first get an API key since the API I'm using is not mine and requires to get one. 
 
