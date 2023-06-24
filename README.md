@@ -1,3 +1,34 @@
+# About my Project
+
+In order to start, you must first open you terminal/shell and open the directory in which you cloned the project and cd to the project name. 
+
+```
+C: \path\to\Travelstrats_Project> 
+```
+
+Then you will need to install a few required items needed to run the project but not to worry just copy and paste!
+
+```
+npm install react react-helmet react-router-dom axios react-spinners @emotion/react
+```
+
+Once you have everything installed, you can run the React App by typing "npm start" and this will automatically open a window screen for you.
+
+```
+TravelStrats_Project> npm start
+```
+If for any reason a new window does not open up automatically, then you can open a browser of your choice (preferrably Chrome) and in the url type:
+>localhost:3000
+
+
+![Alt text](../Screenshots/Top_dash.png)
+
+In order to be able to search for the data (in this case the destination and how many days the person is staying), you must first get an API key since the API I'm using is not mine and requires to get one. 
+
+To get started, click [Here](https://rapidapi.com/nabeeldev1340/api/ai-trip-planner/)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
