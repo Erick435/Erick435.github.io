@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* ====================== TOP BAR HEADER =================== */
+
+.linkToDashboard{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutLabel{
+    color:#ffffff;
+}
+
+.aboutLink{
+    color:white;
+    text-decoration: none;
+}
+
+.contactLabel{
+    color:white;
+}
+
+.contactLink{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ========================== RESULTS HEADER ================= */
+
+.searchResultsContainer{
+    background-color: whitesmoke;
+}
+
+.searchResultsBody{
+    font-size: 60px;
+}
+
+
+.headingForSearchResults{
+    background-color: whitesmoke;
+    padding: 25px 35px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resultAndButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+
+}
+
+.locationAndDays{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+    
+}
+
+.linkButton{
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(79, 178, 211);
+    color: white;
+    padding: 10px 20px;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: background-size 0.3s ease;
+    margin-top: 20px;
+    position: relative;
+    bottom: 7px;
+}
+
+.linkButton:hover{
+    background-color: dodgerblue;
+    background-size: 100% 100%;
+}
+
+
+/* ==================== EACH DAY AND ACTIVITY (ITEM) SECTION =========== */
+.eachDay{
+    text-align: left;
+    text-decoration: underline;
+}
+
+.listContainer{
+    font-size: 25px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+.timeOfActivity{
+    padding-left: 45px;
+}
+
+.seperateTimeDescription{
+    margin: 0px 35px;
+    text-align: left;
+}
+
+.descriptionOfActivity{
+    margin:0;
+}

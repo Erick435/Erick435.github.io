@@ -24,12 +24,31 @@
 .aboutLabel{
     flex:1;
     color:whitesmoke;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;    
 }
 
-.surprise{
+.aboutLabel:hover{
+    background-color: rgb(20, 128, 128);
+    box-shadow: 0 0 10px black;    
+}
+
+.contactLabel{
     flex:1;
     color:whitesmoke;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+
+.contactLabel:hover{
+    background-color: rgb(20, 128, 128);
+    box-shadow: 0 0 10px black;
+}
+
+
 
 /* ============= FORM PAGE ===================== */
 
@@ -62,6 +81,10 @@ img{
     justify-content: center;
 }
 
+form{
+    margin:20px 20px;
+}
+
 .labelOne{
     flex:1;
 }
@@ -72,9 +95,99 @@ img{
 
 label{
     color:white;
-    font:large;
-    font-size:xx-large;
+    font-size:48px;
     font-weight: 1000;
+    padding: 8px 15px;
+
+}
+
+input{
+    border-radius: 7px;
+}
+
+.inputLocation{
+    height: 38px;
+    position: relative;
+    bottom:6px;
+    font-size: 17px;
+    text-indent: 10px;
+}
+
+.inputDays{
+    height: 38px;
+    position: relative;
+    bottom:6px;
+    font-size: 16px;
+    text-indent: 10px;
+}
+
+.buttonSubmit{
+    border: none;
+    background-color: rgb(79, 178, 211);
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transition: background-size 0.3s ease;
+    margin-top: 20px;
+}
+
+
+.buttonSubmit:hover{
+    background-color: dodgerblue;
+    background-size: 100% 100%;
 }
 
 /* ================ ABOUT SECTION =================*/
+
+.aboutHeader{
+    padding-top: 35px;
+    position: relative;
+    bottom: 15px;
+}
+
+.aboutBody{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(243, 243, 243);
+}
+
+/* =================== CONTACT SECTION ============= */
+
+.contactContainer{
+    background-color: black;
+}
+
+.contactHeader{
+    color:white;
+    text-align: left;
+    padding:35px;
+}
+
+.contactBody{
+    color:white;
+    text-align: left;
+    padding:35px;
+}
+
+
+
+
+
+/* =============== LOADING SCREEN TO RENDER DATA =============== */
+
+.loadingScreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
