@@ -27,7 +27,41 @@ In order to be able to search for the data (in this case the destination and how
 
 To get started, click [Here](https://rapidapi.com/nabeeldev1340/api/ai-trip-planner/)
 
+You should be directed to this screen, and then click on "Pricing" where the red arrow is showing
 
+![RAPIDAPI_page](<Screenshots/Screenshot 2023-06-25 133238.png>)
+
+It should direct you to another screen where you will be asked which subscription you would like to have. Click on the subscribe button under "Basic"
+
+![RAPIDAPI_pricing_page](Screenshots/RAPIDAPI_pricing.jpg)
+
+* Just a quick reminder, with this package, you will only have 10 calls per account (you can only search/run the project 10x)
+
+![RAPIDAPI_Account_creation](Screenshots/RAPIDAPI_account.jpg)
+
+Once you have created you account, head back to the [AI Trip Planner Api](https://rapidapi.com/nabeeldev1340/api/ai-trip-planner/). You should be able to see your API key now, you can copy the key, from the right side. 
+
+![RAPIDAPI_gettingKey](Screenshots/API_KEY.jpg)
+
+Great! Now you have your API key, all you need to do now is just add that key to the Dashboard.jsx file. Which I will show you just in case. 
+
+I have the project running on VSCode so my files may or may not look a little bit different from your machine. When cloning and opening the project, to navigate to the Dashboard.jsx file, I highlight the folders/files we need to go to in order to find it.
+
+>src -> components -> Dashboard.jsx
+
+![Project_files](Screenshots/Project_directory.jpg)
+
+Once we open the code, we have to find the line where we need add our API key located at 
+
+> X-RapidAPI-Key': ''
+
+![input_API_KEY](Screenshots/Dashboard_file.jpg)
+
+Save the project and open your terminal or your cmd and navigate to the project.
+
+![Server_Run](Screenshots/Start_server.jpg)
+
+This will open up a new Window and you have now successfully started the server and React application 
 
 # Getting Started with Create React App
 
@@ -36,7 +70,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
