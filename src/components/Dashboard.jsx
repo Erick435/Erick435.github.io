@@ -50,7 +50,7 @@ const Dashboard = () => {
 //You must obtain your own API key and insert it below V     it should look like it 
 //                    'X-RapidAPI-Key': 'e0812d1714msh60632h304e328z4p1abc0ejust856fa0001f',
 
-                    'X-RapidAPI-Key': 'dc1750ddbemsh5f58d12dc52051cp188511jsn7da49909e51a',
+                    'X-RapidAPI-Key': '',
 
 // =============================== STOP MODIFYING FROM HERE ============================
                     'X-RapidAPI-Host': 'ai-trip-planner.p.rapidapi.com'
