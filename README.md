@@ -1,9 +1,37 @@
-# About my Project
+# About TravelStrats
 
-In order to start, you must first open you terminal/shell and open the directory in which you cloned the project and cd to the project name. 
+Have you ever wanted to go on vacation and don't know what activities to do once you get there? That's where TravelStrats comes to save the day. 
+
+## The purpose
+I created this small (still developing) project because I didn't always want to google what activites to do when I would travel to a different place. That's when I thought what if I could create some sort of website where it does all the work for you and also set up a time to help you stay organized while on vacation. Of course, I can't take all the credit since I have used an online API to get the details.
+
+## How it works
+On the main menu, you are given 2 text boxs to enter your text. The top being Location, that's where you will input where you would like to travel to. This could be
+* "Tokyo, Japan"
+* "London, UK"
+* "Lima, Peru"
+* etc
+
+The next text box is to count how many days you plan on staying at that location. A visual reference is show below
+
+![Dashboard](Screenshots/Top_dash.png)
+
+
+![Bottom Dashboard](Screenshots/Bottom_dash.png)
+
+Once you have inputed the data into the text box and hit "Submit", you should be taken to a place where it shows you your data. For example, we will be inputting "Tokyo, Japan" and we'll stay there for '4' days. A visual is show below.
+
+![Top Results page](Screenshots/Top_resultPage.png)
+
+
+![Bottom Results page](Screenshots/Bottom_resultPage.png)
+
+# How to run the project for yourself
+
+In order to start, you must first open you terminal/shell and open the directory in which you cloned the project and cd to the project name.
 
 ```
-C: \path\to\Travelstrats_Project> 
+C: \path\to\Erick435.github.io>
 ```
 
 Then you will need to install a few required items needed to run the project but not to worry just copy and paste!
@@ -15,7 +43,7 @@ npm install react react-helmet react-router-dom axios react-spinners @emotion/re
 Once you have everything installed, you can run the React App by typing "npm start" and this will automatically open a window screen for you.
 
 ```
-TravelStrats_Project> npm start
+Erick435.github.io> npm start
 ```
 If for any reason a new window does not open up automatically, then you can open a browser of your choice (preferrably Chrome) and in the url type:
 >localhost:3000
@@ -23,11 +51,45 @@ If for any reason a new window does not open up automatically, then you can open
 ![View of Home Page](Screenshots/Top_dash.png)
 
 
-In order to be able to search for the data (in this case the destination and how many days the person is staying), you must first get an API key since the API I'm using is not mine and requires to get one. 
+In order to be able to search for the data (in this case the destination and how many days the person is staying), you must first get an API key since the API I'm using is not mine and requires to get one.
 
 To get started, click [Here](https://rapidapi.com/nabeeldev1340/api/ai-trip-planner/)
 
+You should be directed to this screen, and then click on "Pricing" where the red arrow is pointing.
 
+![RAPIDAPI_price](Screenshots/RAPIDAPI_page.png)
+
+It should direct you to another screen where you will be asked which subscription you would like to have. Click on the subscribe button under "Basic".
+
+![RAPIDAPI_pricing_page](Screenshots/RAPIDAPI_pricing.jpg)
+
+* Just a quick reminder, with this package, you will only have 10 calls per account (you can only search/run the project 10x)
+
+![RAPIDAPI_Account_creation](Screenshots/RAPIDAPI_account.jpg)
+
+Once you have created you account, head back to the [AI Trip Planner Api](https://rapidapi.com/nabeeldev1340/api/ai-trip-planner/). You should be able to see your API key now, you can copy the key, from the right side.
+
+![RAPIDAPI_gettingKey](Screenshots/API_KEY.jpg)
+
+Great! Now you have your API key, all you need to do now is just add that key to the Dashboard.jsx file. Which I will show you just in case.
+
+I have the project running on VSCode so my files may or may not look a little bit different from your machine. When cloning and opening the project, to navigate to the Dashboard.jsx file, I highlight the folders/files we need to go to in order to find it.
+
+>src -> components -> Dashboard.jsx
+
+![Project_files](Screenshots/Project_directory.jpg)
+
+Once we open the code, we have to find the line where we need add our API key located at.
+
+> X-RapidAPI-Key': ''
+
+![input_API_KEY](Screenshots/Dashboard_file.jpg)
+
+Save the project and open your terminal or your cmd and navigate to the project.
+
+![Server_Run](Screenshots/Start_server.jpg)
+
+This will open up a new Window and you have now successfully started the server and React application.
 
 # Getting Started with Create React App
 
@@ -36,7 +98,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
