@@ -158,27 +158,41 @@ const Dashboard = () => {
 
 
                 {/* ================= ABOUT SECTION ==================== */}
+<div className='aboutContainer' ref={aboutSectionRef}>
+    <div className='aboutHeader'>
+        <h1>About TravelStrats</h1>
+    </div>
 
-                <div className='aboutContainer' ref={aboutSectionRef}>
-                    <div className='aboutHeader'>
-                        <h1>About</h1>
-                    </div>
+    <div className='aboutBody'>
+        <p>
+            Are you a passionate traveler who craves adventure in new destinations but often finds the process of planning your
+             journeys overwhelming? TravelStrats is here to be your ultimate travel companion and guide, designed to simplify and 
+             enrich your travel experiences.
+        </p>
+        <p>
+            TravelStrats is a project born out of a love for exploration and a deep-seated desire to streamline the vacation 
+            planning process. In a world where information overload is commonplace, our dynamic platform has been meticulously 
+            crafted to empower travelers with curated, personalized travel recommendations, ensuring you make the most of your 
+            valuable time away from home.
+        </p>
+        <p>
+            As the creator of this project, I understand the challenges that come with planning trips to unfamiliar destinations. 
+            Hours spent scouring the internet for things to do, places to visit, and the best dining spots can often lead to 
+            frustration. With TravelStrats, our goal is to revolutionize this process.
+        </p>
+        <p>
+            Our mission is straightforward: to serve as your one-stop resource for discovering hidden gems, must-see attractions, 
+            and authentic experiences that transform each journey into an unforgettable adventure. TravelStrats harnesses 
+            cutting-edge technology and real-time data from a trusted API source to provide you with the latest and most reliable 
+            information about your chosen destination.
+        </p>
+        <p>
+            Join us on a quest to make your travel dreams a reality. With TravelStrats, we aim to empower travelers to embark on 
+            unforgettable adventures, explore new horizons, and create lasting memories.
+        </p>
+    </div>
+</div>
 
-                    <div className='aboutBody'>
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, cumque ducimus unde accusantium sapiente maxime iste doloribus officia provident, adipisci neque dicta deserunt,
-                            voluptatum alias accusamus tempora modi ad?!</h3>
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, vel quo perspiciatis quasi praesentium adipisci eius commodi maiores earum quaerat optio, doloremque nulla corrupti
-                            sassumenda at consequuntur. Repellat, sequi perspiciatis.</h3>
-                        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore sit ad labore aperiam. Nesciunt tempore corrupti provident dolorum veritatis odio aut soluta ipsam.
-                            Itaque pariatur corrupti ab neque voluptatum dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cumque atque earum culpa recusandae sit itaque? Libero maxime debitis,
-                            ad ducimus labore perferendis magni culpa officiis similique! Dolor, quo voluptas.</h3>
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, rem, neque temporibus eos consequatur hic recusandae soluta officiis officia iusto corrupti. Alias cumque
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ex dolor neque est nesciunt earum ullam sint nihil iure illo dicta eos incidunt nisi eligendi id, quae tempore cum illum?
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis fugiat sit ullam, dolorem maiores aliquid mollitia necessitatibus hic sed nostrum enim cupiditate dolores
-                            commodi ipsa, nam sapiente vel! Mollitia, laudantium.
-                            excepturi quo quisquam, quod exercitationem ex perspiciatis?</h3>
-                    </div>
-                </div>
 
 
                 {/* =================== CONTACT SECTION =============== */}
@@ -189,7 +203,7 @@ const Dashboard = () => {
                     </div>
 
                     <div className='contactBody'>
-                        <h5>Phone Number: 1+ (929)-578-4848</h5>
+                        <h5>Phone Number: +1 (929)-578-4848</h5>
                         <h5>Email: shut435@yahoo.com</h5>
                         <h5>NYC, NY, USA</h5>
                     </div>

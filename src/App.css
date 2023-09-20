@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Add these styles to your App.css file */
+
+/* Increase the font size for the about section */
+.aboutContainer {
+  font-size: 26px; /* Adjust the font size to your preference */
+  line-height: 1.6; /* Improve line spacing for readability */
+  margin: 20px; /* Add some margin for better separation from surrounding elements */
+}
+
+/* Style the headers within the about section */
+.aboutHeader h1 {
+  font-size: 28px; /* Increase header font size */
+  margin-bottom: 10px; /* Add space below the header */
+}
+
+/* Style the paragraphs within the about section */
+.aboutBody p {
+  margin-bottom: 20px; /* Add space between paragraphs */
+}
